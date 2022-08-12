@@ -74,8 +74,8 @@ class _ScreenMainState extends State<ScreenMain> {
               child: Padding(
                 padding: const EdgeInsets.all(10.0),
                 // ignore: deprecated_member_use
-                child: FlatButton(
-                  color: Colors.green,
+                child: TextButton(
+                  style: TextButton.styleFrom(primary: Colors.green),
                   onPressed: () {
                     setState(() {
                       // scoreKeeper.add(
@@ -114,8 +114,8 @@ class _ScreenMainState extends State<ScreenMain> {
               child: Padding(
                 padding: const EdgeInsets.all(10.0),
                 // ignore: deprecated_member_use
-                child: FlatButton(
-                  color: Colors.red,
+                child: TextButton(
+                  style: TextButton.styleFrom(primary: Colors.red),
                   onPressed: () {
                     setState(() {
                       // scoreKeeper.add(
